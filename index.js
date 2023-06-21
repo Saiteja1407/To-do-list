@@ -49,15 +49,15 @@ app.get("/", async function(req, res) {
   
 
 var item1= new Item({
-  name:"wash your eyes"
+  name:"Add to-do tasks"
 });
 
 var item2= new Item({
-  name:"get sunlight into your eyes"
+  name:"Delte tasks"
 });
 
 var item3= new Item({
-  name:"eye exercises"
+  name:"Know more using /about page"
 });
 
    items=await Item.find({});
